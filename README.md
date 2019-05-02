@@ -15,7 +15,10 @@ To get the most starred Github repos created in the last 30 days with the pagina
 ```bash
 const gitApiCall = await fetch('https://api.github.com/search/repositories?q=created:%3E2017-10-22&sort=stars&order=desc&page='+this.state.page);
 ```
-##Results
+## Results
+<p align="left">
+  <img src="result.jpg" width="250">
+</p>
 
 
 
